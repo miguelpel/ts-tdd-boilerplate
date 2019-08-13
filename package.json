@@ -36,6 +36,7 @@
     "@types/react-sortable-tree": "0.3.8",
     "@types/react-test-renderer": "16.9.0",
     "@types/styled-components": "4.1.18",
+    "commander": "^3.0.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
     "husky": "^3.0.3",
