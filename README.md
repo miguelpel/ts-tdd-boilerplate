@@ -10,7 +10,7 @@ There's a script to allow you to create components with boilerplate code:
 
 In the project directory, you can run:
 
-### `npm run create_comp -- <ComponentName> --parent=<parentFolderName`
+`npm run create_comp -- <ComponentName> --parent=<parentFolderName`
 
 If no parent folder is provided, the component will be created in the `components` folder.
 
