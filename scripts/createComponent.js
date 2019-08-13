@@ -49,9 +49,10 @@ prog.version('0.1.0')
     .action(name => {
         if (!prog.parent) {
             console.log('Missing --parent argument');
+            console.log('Creating the Component in "components" folder');
         }
 
-        const destDir = __dirname + '/../src/components/' + prog.parent + '/';
+        const destDir = prog.parent ? __dirname + '/../src/components/' + prog.parent + '/' : __dirname + '/../src/components/';
 
         const compFolder = destDir + name;
 

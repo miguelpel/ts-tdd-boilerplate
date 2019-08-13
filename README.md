@@ -6,7 +6,24 @@ This project holds an environment to develop app with React, Typescript, and Tes
 
 ## Create a new component
 
-???
+There's a script to allow you to create components with boilerplate code:
+
+In the project directory, you can run:
+
+### `npm run create_comp -- <ComponentName> --parent=<parentFolderName`
+
+If no parent folder is provided, the component will be created in the `components` folder.
+
+#### Creating a class / functionnale component
+
+The default behaviour of `create_comp` will create a functionnal component.
+I you want to create a class component, add the flag `--type=class` or `-t=class`
+
+#### exemple:
+
+To create a class component called `Home`in the `components/app`folder:
+
+`npm run create_comp -- Home --parent=app --type=class`
 
 ## Available Scripts
 
